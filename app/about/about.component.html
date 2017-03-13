@@ -1,0 +1,17 @@
+<h1>{{ title }}</h1>
+<p>
+Somos uma empresa dedicada ao desenvolvimento e comercialização de análises microbiológicas inovadoras, baseadas em sequenciamentos de DNA de nova geração, análises biocomputacionais e técnicas de PCR quantitativo.
+<br>O conjunto de tecnologias moleculares e algorítmos biocomputacionais, desenvolvidas pela Neoprospecta, deram origem ao inovador método de diagnóstico microbiológico digital. Para interpretação dos resultados microbiológicos possuímos um sofisticado software chamado Neobiome.
+<br>Adicionalmente, a Neoprospecta, utilizando técnicas de PCR quantitativo, criou uma linha de testes rápidos para detecção de micro-organismos e genes de resistência aos antibióticos.
+<br>Integradas, essas tecnologias inovadoras, formam uma das mais completas plataformas de análise, gerenciamento e controle microbiológico.
+<br>Possuímos uma linha de soluções, produtos e serviços voltados às necessidades e desafios onde o conhecimento e o diagnóstico rápido, sensível e preciso, dos micro-organismos, são cruciais para a tomada de decisões e qualidade operacional.
+</p>
+
+<hr>
+<div>
+  <h2 class="text-error">Mensagem: {{ message }}</h2>
+  <form class="form-inline">
+    <input type="text" [(ngModel)]="message" placeholder="Message">
+    <button type="submit" class="btn" (click)="updateMessage(message)">Atualizar</button>
+  </form>
+</div>
